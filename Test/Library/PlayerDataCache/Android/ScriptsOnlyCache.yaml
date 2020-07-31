@@ -4,13 +4,6 @@ ScriptsOnlyBuild:
     - CameraFollow
     - RestartButton
     - SphereMovement
-    Cinemachine.dll:
-    - Cinemachine.CinemachineBrain
-    - Cinemachine.CinemachineComposer
-    - Cinemachine.CinemachineFreeLook
-    - Cinemachine.CinemachineOrbitalTransposer
-    - Cinemachine.CinemachinePipeline
-    - Cinemachine.CinemachineVirtualCamera
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     UnityEditor.Graphs.dll:
@@ -24,8 +17,6 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
     UnityEngine.UI.dll:
-    - UnityEngine.EventSystems.EventSystem
-    - UnityEngine.EventSystems.StandaloneInputModule
     - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
@@ -72,29 +63,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11388}
     - Class: 114
-      Script: {instanceID: 11554}
-    - Class: 114
-      Script: {instanceID: 11690}
-    - Class: 114
-      Script: {instanceID: 11816}
-    - Class: 114
-      Script: {instanceID: 12006}
-    - Class: 114
-      Script: {instanceID: 12068}
-    - Class: 114
-      Script: {instanceID: 12158}
-    - Class: 114
       Script: {instanceID: 12272}
     - Class: 114
       Script: {instanceID: 12608}
     - Class: 114
-      Script: {instanceID: 12610}
-    - Class: 114
       Script: {instanceID: 12848}
     - Class: 114
-      Script: {instanceID: 13206}
-    - Class: 114
-      Script: {instanceID: 13232}
+      Script: {instanceID: 23456}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -294,12 +269,6 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: PhysicsRaycaster
-  - hash:
-      serializedVersion: 2
-      Hash: 4a52d2cd5e33c24e6c5051baef11fa48
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: SphereMovement
   - hash:
       serializedVersion: 2
       Hash: bd3cf68c8964d3c66d1c43f4f98508c9
@@ -846,7 +815,13 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SphereMovement
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Users/Acer/Desktop/test.apk
+  playerPath: C:/Users/Acer/Desktop/Tenkyu Clone Level.apk
